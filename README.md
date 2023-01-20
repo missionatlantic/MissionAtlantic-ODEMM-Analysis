@@ -1,56 +1,14 @@
-# Template for Mission Atlantic analysis
+# Mission Atlantic ODEMM Analysis
 
 ## Introduction
 
-{{product_introduction}}
-
-This is a template to be used for the different Mission Atlantic Work Packages and Case Studies, to document and collaborate on the data processing steps.
+Script for performing the Mission Atlantic ODEMM Analysis
+By Debbi Pedreschi
 
 ## Directory structure
 
-### Option 1: general structure
 ```
-WP5-Case_study_A/
-├── analysis
-├── data/
-│   ├── derived_data/
-│   └── raw_data/
-├── docs/
-├── product/
-└── scripts/
-```
-* **analysis** - Markdown or Jupyter notebooks
-* **data** - Raw and derived data
-* **docs** - Rendered reports
-* **product** - Output product files
-* **scripts** - Reusable code
-
-so a structure with some files could look like this:
-
-```
-WP5-Case_study_A/
-├── Readme.md
-├── analysis
-│    └── report.Rmd
-│    └── report.ipynb
-├── data/
-│    ├── raw_data/
-│    │   └── my_data.csv
-│    └── derived_data/
-│        └── my_processed_data.csv
-├── docs/
-│     └── report.html
-│     └── report.pdf
-├── product/
-└── scripts/
-      └── myfunctions.R
-```
-
-
-
-### Option 2: R structure
-```
-WP5-Case_study_A/
+MissionAtlantic-ODEMM-Analysis/
 ├── analysis
 │    └── report.Rmd
 ├── data/
@@ -59,6 +17,7 @@ WP5-Case_study_A/
 ├── docs/
 ├── product/
 └── R/
+     └── MA ODEMM analysis script.R
 ```
 
 * **analysis** - RMarkdown notebooks
