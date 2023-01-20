@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Script for performing the Mission Atlantic ODEMM Analysis
+Script for performing the Mission Atlantic ODEMM Analysis. ODEMM stands for 'Options for Delivering Ecosystem-Based Marine Management'.
 
 By Debbi Pedreschi
 
