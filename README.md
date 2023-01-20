@@ -3,19 +3,17 @@
 ## Introduction
 
 Script for performing the Mission Atlantic ODEMM Analysis
+
 By Debbi Pedreschi
 
 ## Directory structure
 
 ```
 MissionAtlantic-ODEMM-Analysis/
-├── analysis
-│    └── report.Rmd
-├── data/
-│   ├── derived_data/
-│   └── raw_data/
-├── docs/
-├── product/
+├── analysis (empty)
+├── data/    (empty)
+├── docs/    (empty)
+├── product/ (empty)
 └── R/
      └── MA ODEMM analysis script.R
 ```
@@ -54,7 +52,7 @@ Available to download in:
 
 ### Authors
 
-{{product_authors}}
+Debbi Pedreschi
 
 ---
 <img src="https://d33wubrfki0l68.cloudfront.net/3c7a986788206cd92394530e349a3a7c1ac17036/bcbea/logo.png" alt="drawing" width="500"/>
