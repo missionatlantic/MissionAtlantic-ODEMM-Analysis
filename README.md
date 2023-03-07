@@ -15,7 +15,7 @@ MissionAtlantic-ODEMM-Analysis/
 ├── docs/    (empty)
 ├── product/ (empty)
 └── R/
-     └── MA ODEMM RISK script.R
+     └── MA RISK analysis script.R
 ```
 
 * **analysis** - RMarkdown notebooks
