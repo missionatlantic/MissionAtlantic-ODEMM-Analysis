@@ -39,19 +39,10 @@ Front. Mar. Sci., 06 February 2023
 Sec. Marine Conservation and Sustainability
 Volume 9 - 2022 | https://doi.org/10.3389/fmars.2022.1037878 
 
-### Code and methodology
-
-{{link_code}}
-
-### Citation and download link
-
-This product should be cited as:
-
-{{product_citation}}
-
-Available to download in:
-
-{{link_download}}
+### Additional relevant resources
+Pedreschi, D., Bouch, P., Moriarty, M., Nixon, E., Knights, A. M., & Reid, D. G. (2019). Integrated ecosystem analysis in Irish waters; providing the context for ecosystem-based fisheries management. Fisheries Research, 209, 218-229. https://doi.org/10.1016/j.fishres.2018.09.023 
+Knights, A. M., Piet, G. J., Jongbloed, R. H., Tamis, J. E., White, L., Akoglu, E., ... & Robinson, L. A. (2015). An exposure-effect approach for evaluating ecosystem-wide risks from human activities. ICES Journal of Marine Science, 72(3), 1105-1115. https://doi.org/10.1093/icesjms/fsu245
+https://www.odemm.com/
 
 ### Code Contributors
 
