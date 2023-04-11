@@ -471,9 +471,7 @@ SecPress.pv <- pvclust(SecPress, method.dist="binary",
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Pressures by Sector.pdf")
-plot(SecPress.pv)
-axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
-     mgp = c(0, 0.5, 0))
+plot(SecPress.pv, print.pv=FALSE, print.num=FALSE)
 dev.off()
 
 
@@ -491,9 +489,7 @@ PressSec.pv <- pvclust(PressSec, method.dist="binary",
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Sectors by Pressure.pdf")
-plot(PressSec.pv)
-axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
-     mgp = c(0, 0.5, 0))
+plot(PressSec.pv, print.pv=FALSE, print.num=FALSE)
 dev.off()
 
 ### Eco Char by Sector
@@ -510,9 +506,7 @@ EcoSec.pv <- pvclust(EcoSec, method.dist="binary",
                      method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Eco Char by Sector.pdf")
-plot(EcoSec.pv)
-axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
-     mgp = c(0, 0.5, 0))
+plot(EcoSec.pv, print.pv=FALSE, print.num=FALSE)
 dev.off()
 
 ### Eco Char by Pressure
@@ -529,9 +523,7 @@ EcoPress.pv <- pvclust(EcoPress, method.dist="binary",
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Eco Char by Pressure.pdf")
-plot(EcoPress.pv)
-axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
-     mgp = c(0, 0.5, 0))
+plot(EcoPress.pv,print.pv=FALSE, print.num=FALSE)
 dev.off()
 
 
