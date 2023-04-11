@@ -467,12 +467,11 @@ SecPress = SecPress/SecPress
 SecPress = as.matrix(SecPress)
 SecPress[is.nan(SecPress)] <- 0
 
-SecPress.pv <- pvclust(SecPress, method.dist="euclidean", 
+SecPress.pv <- pvclust(SecPress, method.dist="binary", 
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Pressures by Sector.pdf")
-plot(SecPress.pv, col.pv=c(2,3,4), main="", sub="", xlab="", ylab="", 
-     float = 0.005, cex=0.8, cex.pv=0.6, adj=.7,axes=F)
+plot(SecPress.pv)
 axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
      mgp = c(0, 0.5, 0))
 dev.off()
@@ -488,12 +487,11 @@ PressSec = PressSec/PressSec
 PressSec = as.matrix(PressSec)
 PressSec[is.nan(PressSec)] <- 0
 
-PressSec.pv <- pvclust(PressSec, method.dist="euclidean", 
+PressSec.pv <- pvclust(PressSec, method.dist="binary", 
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Sectors by Pressure.pdf")
-plot(PressSec.pv, col.pv=c(2,3,4), main="", sub="", xlab="", ylab="", 
-     float = 0.005, cex=0.8, cex.pv=0.6, adj=.7,axes=F)
+plot(PressSec.pv)
 axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
      mgp = c(0, 0.5, 0))
 dev.off()
@@ -508,12 +506,11 @@ EcoSec = EcoSec/EcoSec
 EcoSec = as.matrix(EcoSec)
 EcoSec[is.nan(EcoSec)] <- 0
 
-EcoSec.pv <- pvclust(EcoSec, method.dist="euclidean", 
+EcoSec.pv <- pvclust(EcoSec, method.dist="binary", 
                      method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Eco Char by Sector.pdf")
-plot(EcoSec.pv, col.pv=c(2,3,4), main="", sub="", xlab="", ylab="", 
-     float = 0.005, cex=0.8, cex.pv=0.6, adj=.7,axes=F)
+plot(EcoSec.pv)
 axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
      mgp = c(0, 0.5, 0))
 dev.off()
@@ -528,12 +525,11 @@ EcoPress = EcoPress/EcoPress
 EcoPress = as.matrix(EcoPress)
 EcoPress[is.nan(EcoPress)] <- 0
 
-EcoPress.pv <- pvclust(EcoPress, method.dist="euclidean", 
+EcoPress.pv <- pvclust(EcoPress, method.dist="binary", 
                        method.hclust="average", nboot=1000)
 
 pdf ("Dendrogram Eco Char by Pressure.pdf")
-plot(EcoPress.pv, col.pv=c(2,3,4), main="", sub="", xlab="", ylab="", 
-     float = 0.005, cex=0.8, cex.pv=0.6, adj=.7,axes=F)
+plot(EcoPress.pv)
 axis(side=4, at=c(0,1,2,3), labels=c("0","1", "2", "3"),  
      mgp = c(0, 0.5, 0))
 dev.off()
@@ -543,7 +539,7 @@ dev.off()
 
 #################################################################
 #################################################################
-#####     Relative Contribition Plots EDITED FOR IR ONLY    ########################
+##### Relative Contribition Plots EDITED FOR Impact Risk (IR) ONLY    ############
 #################################################################
 #################################################################
 
