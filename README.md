@@ -2,9 +2,8 @@
 
 ## Introduction
 
-Script for performing the Mission Atlantic RISK Analysis. It has been modified from the ODEMM ('Options for Delivering Ecosystem-Based Marine Management') - approach.
+Script for performing the Mission Atlantic RISK Analysis. It has been modified from the ODEMM ('Options for Delivering Ecosystem-Based Marine Management') - approach. For details see https://doi.org/10.3389/fmars.2022.1037878
 
-By Debbi Pedreschi
 
 ## Directory structure
 
@@ -54,7 +53,7 @@ Available to download in:
 
 {{link_download}}
 
-### Authors
+### Code Contributors
 
 Debbi Pedreschi, Paul Bouch, Tiago Gandra.
 
