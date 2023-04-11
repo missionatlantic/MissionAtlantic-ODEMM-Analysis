@@ -30,11 +30,15 @@ MissionAtlantic-ODEMM-Analysis/
 
 ## Data product
 
-{{data_product_description}}
+Provides bar charts, boxplots, dendrograms, and Sankey Diagrams as standardised outputs from risk analysis.
 
 ## More information:
 
 ### References
+Pedreschi et al. 2023
+Front. Mar. Sci., 06 February 2023
+Sec. Marine Conservation and Sustainability
+Volume 9 - 2022 | https://doi.org/10.3389/fmars.2022.1037878 
 
 ### Code and methodology
 
@@ -52,7 +56,7 @@ Available to download in:
 
 ### Authors
 
-Debbi Pedreschi
+Debbi Pedreschi, Paul Bouch, Tiago Gandra.
 
 ---
 <img src="https://d33wubrfki0l68.cloudfront.net/3c7a986788206cd92394530e349a3a7c1ac17036/bcbea/logo.png" alt="drawing" width="500"/>
